@@ -1,0 +1,37 @@
+.TodoEditor .editor-wrapper {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+
+.TodoEditor .editor-wrapper input {
+  flex: 1;
+  box-sizing: border-box;
+  border: 1px solid rgb(220, 220, 220);
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.TodoEditor .editor-wrapper input:focus {
+  outline: none;
+  border: 1px solid #1f93ff;
+}
+
+.TodoEditor .editor-wrapper button {
+  cursor: pointer;
+  width: 80px;
+  border: none;
+  background-color: #1f93ff;
+  border-radius: 5px;
+  color: white;
+  transition: all .3s;
+}
+
+.TodoEditor .editor-wrapper button:hover {
+  transform: translateY(-5px);
+}
+
+.TodoEditor .editor-wrapper button:active {
+  transform: translateY(0px);
+  background-color: #0084ff;
+}
